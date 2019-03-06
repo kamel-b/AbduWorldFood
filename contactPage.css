@@ -1,0 +1,27 @@
+h1{
+    color: rgb(67, 67, 67);
+    font-size: 9vw;
+    margin: 16px;
+    padding: 16px;
+    text-align: center;
+}
+
+.image{
+    width: 100%;
+}
+
+form {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+.button{
+    background-color: rgb(67, 67, 67);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+}
+
+input[type=text], textarea{
+    width: 100%;
+}
