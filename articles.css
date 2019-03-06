@@ -20,3 +20,15 @@ div h2
   margin-right: 20px;
 
 }
+.row
+{
+   margin-top: 10%;
+   margin-bottom: 10%;
+}
+@media (min-width: 786px) and (max-width: 2560px)
+{
+   p
+      {
+         font-size: 25px;
+      }
+}
