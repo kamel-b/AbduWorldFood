@@ -1,0 +1,22 @@
+.articles h1
+{
+   
+   font-size: 9vw;
+   margin: 16px;
+   padding: 16px;
+   color: rgb(67, 67, 67); 
+   text-align: center;
+}
+.img-foods
+{
+   width: 100%;
+   height: auto;
+   
+
+}
+div h2
+{
+  text-align: right;
+  margin-right: 20px;
+
+}
