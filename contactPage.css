@@ -6,6 +6,19 @@ h1{
     text-align: center;
 }
 
+.message{
+    color: rgb(67, 67, 67);
+    font-size: 3vw;
+    margin: 20px;
+    text-align: center;
+}
+
+div .row{
+    background-image: url("https://i.goopics.net/ogYdn.jpg");
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size:cover;
+}
 .image{
     width: 100%;
 }
@@ -25,3 +38,16 @@ form {
 input[type=text], textarea{
     width: 100%;
 }
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-size: 2vw;
+  }
+::-moz-placeholder { /* Firefox 19+ */
+    font-size: 2vw;
+  }
+:-ms-input-placeholder { /* IE 10+ */
+    font-size: 2vw;
+  }
+:-moz-placeholder { /* Firefox 18- */
+    font-size: 2vw;
+  }
