@@ -1,0 +1,40 @@
+.center_hn{
+    text-align:center;
+}
+
+.top20{
+    padding-top:20px;
+}
+
+.bottom20{
+    padding-bottom:20px;
+}
+
+
+.lien:link{
+    text-decoration:none;
+    color:white;
+}
+
+.lien:visited{
+    text-decoration:none;
+    color:white;
+}
+
+.lien:hover{
+    text-decoration:none;
+    color:white;
+}
+
+.lien:active{
+    text-decoration:none;
+    color:white;
+}
+
+
+
+
+
+
+
+
