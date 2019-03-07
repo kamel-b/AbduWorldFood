@@ -1,0 +1,135 @@
+.navbar,
+.navbar-expand-md,
+.bg-dark,
+.navbar-dark{
+  margin-top: -30px;
+  opacity: 0.98;
+  position: fixed;
+  width: 100%;
+}
+
+.dropdown :hover{
+  text-decoration: none;
+}
+
+
+.dropdown-menu{
+  background-color: #343a40;
+}
+
+.spain,
+.italia,
+.india,
+.japan,
+.usa{
+  color: rgba(255,255,255,.5);
+  font-style: italic;
+}
+
+.spain:hover{
+  color: red;
+  transition: 0.8s;
+}
+
+.italia:hover{
+  color: blanchedalmond;
+  transition: 0.8s;
+}
+
+.india:hover{
+  color: orangered;
+  transition: 0.8s;
+}
+
+.japan:hover{
+  color: fuchsia;
+  transition: 0.8s;
+}
+
+.usa:hover{
+  color: navy;
+  transition: 0.8s;
+}
+
+.dropdown-menu:hover{
+  transform: scale(1.17);
+  transition: 1s;
+}
+
+.nav-link{
+  margin: 4px;
+  padding-left: -15px;
+}
+
+.nav-link:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+  box-shadow: 5px 5px;
+}
+
+.logo{
+  border-radius: 30px;
+  height: 95px;
+  padding-right: -15px;
+  margin: -15px;
+  opacity: 0.80;
+}
+
+.logo:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.nav-container{
+  justify-content: space-evenly;
+  width: 100%;
+}
+.navbar-nav{
+  font-size: 40px;
+  justify-content: space-between;
+  padding-left: 8%;
+}
+
+.main{
+  margin-top: 30px;
+}
+
+#foot{
+  background-color:  #343a40;
+  height: 60px;
+  opacity: 0.95;
+  width: 100%;
+}
+
+.acac{
+  display: inline-flex;
+  font-size: 15px;
+  justify-content: space-evenly;
+  list-style-type: none;
+  width: 50%;
+}
+
+.leftfooter{
+  color:  rgba(255,255,255,.5);
+}
+
+.leftfooter:hover{
+  color: ivory;
+  text-decoration: none;
+}
+    
+.social{
+  display: inline-flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  padding-top: 15px;
+  width: 40%;
+}
+
+.inst,
+.fb,
+.twit,
+.yout{
+  border-radius: 30%;
+  height: 30px;
+}
