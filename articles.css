@@ -1,9 +1,9 @@
 .articles h1
 {  
    font-size: 9vw;
-   margin-top: 16px;
-   margin-bottom: 15%;
-   padding: 16px;
+   margin-top: 30px;
+   margin-bottom: 10%;
+   padding-top: 10%;
    color: rgb(67, 67, 67); 
    text-align: center;
 }

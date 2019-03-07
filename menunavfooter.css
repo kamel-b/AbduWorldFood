@@ -6,6 +6,7 @@
   opacity: 0.98;
   position: fixed;
   width: 100%;
+  z-index: 1;
 }
 
 .dropdown :hover{
