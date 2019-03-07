@@ -51,3 +51,8 @@ input[type=text], textarea{
 :-moz-placeholder { /* Firefox 18- */
     font-size: 2vw;
   }
+
+body{
+  margin-bottom: 10px;
+}
+  
