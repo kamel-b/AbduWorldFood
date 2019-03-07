@@ -17,13 +17,13 @@
 div h2
 {
   text-align: right;
-  margin-right: 20px;
+  margin-right: 10px;
   font-size: 6vw;
 }
 
 .row
 {
-   margin-top: 10%;
+   margin-top: 3%;
    margin-bottom: 10%;
 }
 
@@ -33,11 +33,15 @@ p
 }
 .title
 {
-   background-color: black;
+   background-color: rgb(67, 67, 67);
    border-radius: 20px;
    color: white;
    margin-right: 15%;
    width: 100%;
+}
+.title h2
+{
+   margin-right: 17%;
 }
 .maj
 {
