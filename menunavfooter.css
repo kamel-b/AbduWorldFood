@@ -6,6 +6,7 @@
   opacity: 0.98;
   position: fixed;
   width: 100%;
+  z-index: 1;
 }
 
 .dropdown :hover{
@@ -29,26 +30,36 @@
 .spain:hover{
   color: red;
   transition: 0.8s;
+  font-family: 'Gamja Flower', cursive;
+  font-size: 40px;
 }
 
 .italia:hover{
   color: blanchedalmond;
   transition: 0.8s;
+  font-family: 'Italianno', cursive;
+  font-size: 45px;
 }
 
 .india:hover{
   color: orangered;
   transition: 0.8s;
+  font-family: 'Laila', serif;
+  font-size: 30px;
 }
 
 .japan:hover{
   color: fuchsia;
   transition: 0.8s;
+  font-family: 'Shojumaru', cursive;
+  font-size: 25px;
 }
 
 .usa:hover{
   color: navy;
   transition: 0.8s;
+  font-family: 'Asset', cursive;
+  font-size: 20px;
 }
 
 .dropdown-menu:hover{
@@ -59,20 +70,21 @@
 .nav-link{
   margin: 4px;
   padding-left: -15px;
+  font-family: 'Pacifico', cursive;
 }
 
 .nav-link:hover{
+  box-shadow: 5px 5px;
   transform: scale(1.1);
   transition: 0.5s;
-  box-shadow: 5px 5px;
 }
 
 .logo{
   border-radius: 30px;
   height: 95px;
-  padding-right: -15px;
   margin: -15px;
   opacity: 0.80;
+  padding-right: -15px;
 }
 
 .logo:hover{
@@ -99,6 +111,7 @@
   height: 60px;
   opacity: 0.95;
   width: 100%;
+  z-index: 1;
 }
 
 .acac{
