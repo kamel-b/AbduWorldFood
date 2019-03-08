@@ -1,11 +1,16 @@
 
+
+/*    SECTION   */
+
+
 h1 {
     text-align: center;
-    font-size: 9vw;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 16px;
+    font-size: 6vw;
+    font-family: 'Pacifico', cursive;
     color: rgb(67, 67,67);
+    padding-top: 90px;
     padding-bottom: 2%;
+    margin-top: 33px;
 }
 
 h3 {
@@ -21,24 +26,32 @@ p{
 }
 
 hr {
-	display: block;
     background-color: black;
     padding-bottom: 1px;
     width: 80%;
+}
 
 .col-1 {
     margin-left: -4%;
 }
 
+
 .row1 {
-    padding-top: 10px;
+    padding-top: 30px;
     padding-bottom: 20px;
     
 }
 
 .row2 {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    display: flex;
+    text-align: right;
+    justify-content: right;
+    margin-right: 4%;
+}
+
+.row3 {
+    padding-top: 30px;
+    padding-bottom: 3%;
 }
 
 .photo{
@@ -46,14 +59,12 @@ hr {
     width: 100%;
     height: 50%;
     justify-content: space-evenly;
-    padding: 20px;
     flex-wrap: wrap;
-    padding-bottom: 4%;
-    opacity: 1.0;
+    padding-bottom: 2%;
     margin: 10px;
 }
 
-.pouletpicture{
+.chickenpicture{
     width: 450px;
     height: 350px;
     padding-bottom: 5px;
@@ -63,3 +74,8 @@ hr {
     height: 350px;
 }
 
+.title3 {
+    text-align: right;
+}
+
+/*    FOOTER   */
