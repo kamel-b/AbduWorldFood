@@ -6,6 +6,10 @@
     margin-top: 90px;
 }
 
+.marge_basse{
+    margin-bottom: 10px;
+}
+
 h1{
     font-size:6vw;
     font-family: 'Pacifico', cursive;
@@ -15,11 +19,6 @@ h2{
     font-size:3vw;
 }
 
-
-
-.marge_basse{
-    margin-bottom: 60px;
-}
 
 .center_hn{
     text-align:center;
