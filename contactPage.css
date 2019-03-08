@@ -4,9 +4,10 @@ header{
 
 h1{
     color: rgb(67, 67, 67);
-    font-size: 9vw;
-    padding-top: 70px;
+    font-size: 6vw;
+    padding-top: 100px;
     text-align: center;
+    font-family: pacifico;
 }
 
 .message{
