@@ -1,8 +1,11 @@
+header{
+  margin-top: 30px;
+}
+
 h1{
     color: rgb(67, 67, 67);
     font-size: 9vw;
-    margin: 16px;
-    padding: 16px;
+    padding-top: 70px;
     text-align: center;
 }
 
@@ -18,6 +21,7 @@ div .row{
     background-repeat: no-repeat;
     background-position: center; 
     background-size:cover;
+    margin-bottom: 50px;
 }
 .image{
     width: 100%;
@@ -53,7 +57,152 @@ input[type=text], textarea{
     font-size: 10px;
   }
 
-body{
-  margin-bottom: 10px;
+.navbar,
+.navbar-expand-md,
+.bg-dark,
+.navbar-dark{
+  margin-top: -30px;
+  opacity: 0.98;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.dropdown :hover{
+  text-decoration: none;
+}
+
+
+.dropdown-menu{
+  background-color: #343a40;
+}
+
+.spain,
+.italia,
+.india,
+.japan,
+.usa{
+  color: rgba(255,255,255,.5);
+  font-style: italic;
+}
+
+.spain:hover{
+  color: red;
+  transition: 0.8s;
+  font-family: 'Gamja Flower', cursive;
+  font-size: 40px;
+}
+
+.italia:hover{
+  color: blanchedalmond;
+  transition: 0.8s;
+  font-family: 'Italianno', cursive;
+  font-size: 45px;
+}
+
+.india:hover{
+  color: orangered;
+  transition: 0.8s;
+  font-family: 'Laila', serif;
+  font-size: 30px;
+}
+
+.japan:hover{
+  color: fuchsia;
+  transition: 0.8s;
+  font-family: 'Shojumaru', cursive;
+  font-size: 25px;
+}
+
+.usa:hover{
+  color: navy;
+  transition: 0.8s;
+  font-family: 'Asset', cursive;
+  font-size: 20px;
+}
+
+.dropdown-menu:hover{
+  transform: scale(1.17);
+  transition: 1s;
+}
+
+.nav-link{
+  margin: 4px;
+  padding-left: -15px;
+  font-family: 'Pacifico', cursive;
+}
+
+.nav-link:hover{
+  box-shadow: 5px 5px;
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.logo{
+  border-radius: 30px;
+  height: 95px;
+  margin: -15px;
+  opacity: 0.80;
+  padding-right: -15px;
+}
+
+.logo:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.nav-container{
+  justify-content: space-evenly;
+  width: 100%;
+}
+.navbar-nav{
+  font-size: 40px;
+  justify-content: space-between;
+  padding-left: 8%;
+}
+
+.main{
+  margin-top: 30px;
+}
+
+#foot{
+  background-color:  #343a40;
+  height: 60px;
+  opacity: 0.95;
+  width: 100%;
+  z-index: 1;
+}
+
+.acac{
+  display: inline-flex;
+  font-size: 15px;
+  justify-content: space-evenly;
+  list-style-type: none;
+  width: 50%;
+}
+
+.leftfooter{
+  color:  rgba(255,255,255,.5);
+}
+
+.leftfooter:hover{
+  color: ivory;
+  text-decoration: none;
+}
+    
+.social{
+  display: inline-flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  padding-top: 15px;
+  width: 40%;
+}
+
+.inst,
+.fb,
+.twit,
+.yout{
+  border-radius: 30%;
+  height: 30px;
 }
   
