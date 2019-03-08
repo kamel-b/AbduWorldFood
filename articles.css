@@ -2,7 +2,7 @@
 {  
    font-size: 9vw;
    margin-top: 30px;
-   margin-bottom: 10%;
+   margin-bottom: 5%;
    padding-top: 10%;
    color: rgb(67, 67, 67); 
    text-align: center;
@@ -48,10 +48,45 @@ p
    font-size: 4vw;
 }
 
-@media (min-width: 786px) and (max-width: 2560px)
+#spain
+{
+   font-family: 'Gamja Flower', cursive;
+}
+
+#italy
+{
+   font-family: 'Italianno', cursive;
+}
+
+#india
+{
+   font-family: 'Laila', serif;
+}
+
+#japan
+{
+   font-family: 'Shojumaru', cursive;
+}
+
+#usa
+{
+   font-family: 'Black Ops One', cursive;
+   font-size: 10px;
+}
+
+@media (min-width: 768px) and (max-width: 2560px)
 {
    p
       {
-         font-size: 25px;
+         font-size: 45px;
       }
+  
+}
+@media (max-width: 767px)
+{
+   #usa > p
+   {
+      font-size: 65px;
+
+   }
 }
