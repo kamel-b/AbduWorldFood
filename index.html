@@ -8,25 +8,57 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <title>Abdu's World Food</title>
+    <title>Abdu's World Food</title>    
+    <link rel="stylesheet" type="text/css" href="menunavfooter.css" />
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Asset|Black+Ops+One|Gamja+Flower|Italianno|Laila|Pacifico|Shojumaru" rel="stylesheet">
     <link rel="stylesheet" href="style_Accueil.css" />
   </head>
   <body>
+
+    <!--MENU DE NAVIGATION HEADER-->  
+    <header class="hauteur_menu">
+          <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <a class="navbar-brand" href="index.html"><img class = "logo" src="https://s3.amazonaws.com/oxfam-us/www/static/media/resized/Oxfam_America-2014_WFD_placemat_420x263.jpg" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav nav-container">
+                <li class="dropdown nav-item">
+                  <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#">Articles<span class= "caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a class ="spain" href="articles.html">Spain</a></li>
+                      <li><a class ="italia" href="articles.html">Italia</a></li>
+                      <li><a class ="india" href="articles.html">India</a></li>
+                      <li><a class ="japan" href="articles.html">Japan</a></li>
+                      <li><a class ="usa" href="articles.html">U.S.A.</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="gallery_page.html">Gallery</a>
+                 </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Biography.html">Biography</a>
+                </li>    
+                <li class="nav-item">
+                  <a class="nav-link" href="contactPage.html">Contact</a>
+                </li>    
+              </ul>
+            </div>  
+          </nav>
+        </header>
     
     <div class="container-fluid">        
         
+      <!--CONTENU PAGE ACCUEIL - CAROUSEL-->
       <div class="row">
-          <header>
-
-          </header>
-
-          <div class="col-md-12 center_hn">
+          
+          <div class="col-md-12 center_hn marge_haute">
               <h1 class="top20">Abdu's World Food</h1>
-              <h2 class="h4 text-muted bottom20">Welcome to the yummiest food blog in France</h2>         
+              <h2 class=" text-muted bottom20">Welcome to the yummiest food blog in France</h2>         
           </div>         
 
             
-          <div id="carouselExampleIndicators" class="carousel slide col-md-12" data-ride="carousel">
+          <div id="carouselExampleIndicators" class="carousel slide col-md-12 marge_basse" data-ride="carousel">
                 <ol class="carousel-indicators">
                   <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                   <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -71,16 +103,42 @@
                   <span class="sr-only">Next</span>
                 </a>
             </div>
-
-          <footer>
-
-          </footer>
-
       </div>
-
-               
-
     </div>
+
+    <!--FOOTER-->  
+    <footer id="foot">
+        <ul class = acac>
+          <li>
+            <a class="leftfooter" href="Biography.html">About</a>
+          </li>
+          <li>
+            <a class="leftfooter" href="contactPage.html">Contact</a>
+          </li>
+          <li>
+            <a class="leftfooter" href="#">Adress</a>
+          </li>
+          <li>
+            <a class="leftfooter" href="#">Copyright</a>
+          </li>
+        </ul>
+  
+        <ul class = social>
+          <li>
+            <a href="#"><img class = inst src="https://cdn.pixabay.com/photo/2016/08/09/17/52/instagram-1581266_960_720.jpg" alt = "instagram"></a>
+          </li>
+          <li>
+            <a href="#"><img class = fb src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Facebook_logo_%28square%29.png" alt= "facebook"></a>
+          </li>
+          <li>
+            <a href="#"><img class = twit src="https://upload.wikimedia.org/wikipedia/fr/c/c8/Twitter_Bird.svg" alt="twitter"></a>
+          </li>
+          <li>
+            <a href="#"><img class = yout src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Logoyoutube2011favicon.svg" alt="youtube"></a>
+          </li>
+        </ul>
+      </footer>
+    
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

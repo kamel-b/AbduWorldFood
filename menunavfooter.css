@@ -18,52 +18,52 @@
   background-color: #343a40;
 }
 
-.spain,
-.italia,
-.india,
-.japan,
-.usa{
+.spain2,
+.italia2,
+.india2,
+.japan2,
+.usa2{
   color: rgba(255,255,255,.5);
   font-style: italic;
 }
 
-.spain:hover{
+.spain2:hover{
   color: red;
   transition: 0.8s;
   font-family: 'Gamja Flower', cursive;
   font-size: 40px;
 }
 
-.italia:hover{
+.italia2:hover{
   color: blanchedalmond;
   transition: 0.8s;
   font-family: 'Italianno', cursive;
   font-size: 45px;
 }
 
-.india:hover{
+.india2:hover{
   color: orangered;
   transition: 0.8s;
   font-family: 'Laila', serif;
   font-size: 30px;
 }
 
-.japan:hover{
+.japan2:hover{
   color: fuchsia;
   transition: 0.8s;
   font-family: 'Shojumaru', cursive;
   font-size: 25px;
 }
 
-.usa:hover{
+.usa2:hover{
   color: navy;
   transition: 0.8s;
-  font-family: 'Asset', cursive;
-  font-size: 20px;
+  font-family: 'Black Ops One', cursive;
+  font-size: 18px;
 }
 
 .dropdown-menu:hover{
-  transform: scale(1.17);
+  transform: scale(1.19);
   transition: 1s;
 }
 
@@ -145,4 +145,18 @@
 .yout{
   border-radius: 30%;
   height: 30px;
+}
+
+@media (max-width: 768px)
+{
+  .acac
+  {
+    display: none;
+  }
+  .social
+  {
+    margin-left: 70px;
+    justify-content: space-around;
+
+  }
 }
