@@ -1,6 +1,7 @@
 .articles h1
 {  
-   font-size: 9vw;
+   font-family: 'pacifico', cursive;
+   font-size: 6vw;
    margin-top: 30px;
    margin-bottom: 5%;
    padding-top: 10%;
@@ -18,7 +19,7 @@ div h2
 {
   text-align: right;
   margin-right: 10px;
-  font-size: 6vw;
+  font-size: 5vw;
 }
 
 .row
@@ -82,11 +83,4 @@ p
       }
   
 }
-@media (max-width: 767px)
-{
-   #usa > p
-   {
-      font-size: 65px;
 
-   }
-}
