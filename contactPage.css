@@ -1,3 +1,16 @@
+@keyframes pulse {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
+
 header{
   margin-top: 30px;
 }
@@ -17,33 +30,83 @@ h1{
     text-align: center;
 }
 
-div .row{
-    background-image: url("https://i.goopics.net/ogYdn.jpg");
-    background-repeat: no-repeat;
-    background-position: center; 
-    background-size:cover;
-    margin-bottom: 50px;
+.main{
+  position: relative;
+  text-align: center;
 }
+
+.form{    
+    display: none;
+    height: auto;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 50vw;
+
+}
+
 .image{
     width: 100%;
+    height: auto;
+    margin-bottom: 2%;
+}
+.divButton
+{
+  position: absolute;
+  bottom: 40%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50vw;
 }
 
-form {
-    text-align: center;
-    margin: 20px;
-  }
-
 .button{
-    background-color: rgb(67, 67, 67);
+    background-color:  rgb(67, 67, 67);
     border: none;
     color: white;
     padding: 15px 32px;
+    width: auto;
+    height: auto;
 }
+
+.openButton{
+    background-color:  rgb(67, 67, 67);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    animation: pulse 1s infinite;
+    border-radius: 30px;
+    width: auto;
+    height: auto;
+}
+
+.openButton:hover{
+    background-color:  rgb(67, 67, 67);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    animation-play-state: paused;   
+}
+
 
 input[type=text], textarea{
     width: 100%;
     padding: 10px;
 }
+
+.thankYouMessage{
+    width: 100%;
+    height: auto;
+    background-color:  rgb(67, 67, 67);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    position: absolute;
+    bottom: 35%;
+    display: none;
+}
+
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     font-size: 10px;
@@ -57,167 +120,3 @@ input[type=text], textarea{
 :-moz-placeholder { /* Firefox 18- */
     font-size: 10px;
   }
-
-.navbar,
-.navbar-expand-md,
-.bg-dark,
-.navbar-dark{
-  margin-top: -30px;
-  opacity: 0.98;
-  position: fixed;
-  width: 100%;
-  z-index: 1;
-}
-
-.dropdown :hover{
-  text-decoration: none;
-}
-
-
-.dropdown-menu{
-  background-color: #343a40;
-}
-
-.spain,
-.italia,
-.india,
-.japan,
-.usa{
-  color: rgba(255,255,255,.5);
-  font-style: italic;
-}
-
-.spain:hover{
-  color: red;
-  transition: 0.8s;
-  font-family: 'Gamja Flower', cursive;
-  font-size: 40px;
-}
-
-.italia:hover{
-  color: blanchedalmond;
-  transition: 0.8s;
-  font-family: 'Italianno', cursive;
-  font-size: 45px;
-}
-
-.india:hover{
-  color: orangered;
-  transition: 0.8s;
-  font-family: 'Laila', serif;
-  font-size: 30px;
-}
-
-.japan:hover{
-  color: fuchsia;
-  transition: 0.8s;
-  font-family: 'Shojumaru', cursive;
-  font-size: 25px;
-}
-
-.usa:hover{
-  color: navy;
-  transition: 0.8s;
-  font-family: 'Asset', cursive;
-  font-size: 20px;
-}
-
-.dropdown-menu:hover{
-  transform: scale(1.17);
-  transition: 1s;
-}
-
-.nav-link{
-  margin: 4px;
-  padding-left: -15px;
-  font-family: 'Pacifico', cursive;
-}
-
-.nav-link:hover{
-  box-shadow: 5px 5px;
-  transform: scale(1.1);
-  transition: 0.5s;
-}
-
-.logo{
-  border-radius: 30px;
-  height: 95px;
-  margin: -15px;
-  opacity: 0.80;
-  padding-right: -15px;
-}
-
-.logo:hover{
-  transform: scale(1.1);
-  transition: 0.5s;
-}
-
-.nav-container{
-  justify-content: space-evenly;
-  width: 100%;
-}
-.navbar-nav{
-  font-size: 40px;
-  justify-content: space-between;
-  padding-left: 8%;
-}
-
-.main{
-  margin-top: 30px;
-}
-
-#foot{
-  background-color:  #343a40;
-  height: 60px;
-  opacity: 0.95;
-  width: 100%;
-  z-index: 1;
-}
-
-.acac{
-  display: inline-flex;
-  font-size: 15px;
-  justify-content: space-evenly;
-  list-style-type: none;
-  width: 50%;
-}
-
-.leftfooter{
-  color:  rgba(255,255,255,.5);
-}
-
-.leftfooter:hover{
-  color: ivory;
-  text-decoration: none;
-}
-    
-.social{
-  display: inline-flex;
-  justify-content: space-evenly;
-  list-style-type: none;
-  padding-top: 15px;
-  width: 40%;
-}
-
-.inst,
-.fb,
-.twit,
-.yout{
-  border-radius: 30%;
-  height: 30px;
-}
-
-
-@media (max-width: 768px)
-{
-  .acac
-  {
-    display: none;
-  }
-  .social
-  {
-    margin-left: 70px;
-    justify-content: space-around;
-
-  }
-}
