@@ -20,7 +20,7 @@ h1{
     font-size: 6vw;
     padding-top: 100px;
     text-align: center;
-    font-family: pacifico;
+    font-family: josefin;
 }
 
 .message{
@@ -28,6 +28,7 @@ h1{
     font-size: 4vw;
     margin: 20px;
     text-align: center;
+    font-family: josefin;
 }
 
 .main{
@@ -71,7 +72,7 @@ h1{
 }
 
 .openButton{
-    background-color:  rgb(67, 67, 67);
+    background-color: rgb(255, 102, 102);
     border: none;
     color: white;
     padding: 15px 32px;
@@ -96,11 +97,14 @@ input[type=text], textarea{
 }
 
 .thankYouMessage{
-    width: 100%;
+    width: 50%;
     height: auto;
-    background-color:  rgb(67, 67, 67);
+    background-color: rgb(255, 102, 102);
     border: none;
+    border-radius: 30px;
     color: white;
+    left: 50%;
+    transform: translate(-50%, -50%);
     padding: 15px 32px;
     position: absolute;
     bottom: 35%;
