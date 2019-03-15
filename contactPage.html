@@ -12,88 +12,35 @@
         <title>contactPage</title>
     </head>
     <body>
-        <header>
-            <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-                <a class="navbar-brand" href="index.html"><img class = "logo" src="https://s3.amazonaws.com/oxfam-us/www/static/media/resized/Oxfam_America-2014_WFD_placemat_420x263.jpg" alt="logo"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                    <ul class="navbar-nav nav-container">
-                        <li class="dropdown nav-item">
-                        <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#">Articles<span class= "caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a class ="spain" href="articles.html">Spain</a></li>
-                                <li><a class ="italia" href="articles.html">Italia</a></li>
-                                <li><a class ="india" href="articles.html">India</a></li>
-                                <li><a class ="japan" href="articles.html">Japan</a></li>
-                                <li><a class ="usa" href="articles.html">U.S.A.</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="gallery_page.html">Gallery</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="Biography.html">Biography</a>
-                        </li>    
-                        <li class="nav-item">
-                            <a class="nav-link" href="contactPage.html">Contact</a>
-                        </li>    
-                    </ul>
-                </div>  
-            </nav>
-        </header>
+
         <div>
             <h1>Contact</h1>
         </div>
         <div>                    
-            <p class="message">Please don't hesitate to leave me a message! </br> I am fluffy and friendly as a chick!</p>
+            <p class="message">Please don't hesitate to leave me a message! </br> I am as fluffy and friendly as a chick!</p>
         </div>
-        <div class="container-fluid">
-            <div class="row no-gutters">
-                <div class="col-sm-6 offset-sm-3">
-                    <form id="form" action="#">
-                        <p><input type="text" name="name" placeholder="Name"></p>
-                        <p><input type="text" name="email" placeholder="Email"></p>
-                        <p>
-                        <textarea rows="4" name="comment" form="form" placeholder="Message"></textarea>
-                        </p>
-                        <input type="submit" class="button" value="Submit" id="myButton">
-                    </form>
-                </div>
+        <div class="main">
+            <div class="image">
+                <img src="https://i.goopics.net/ogYdn.jpg" alt="Chicks" class="image">
             </div>
-        </div>
-        <footer id="foot">
-            <ul class = acac>
-                <li>
-                    <a class="leftfooter" href="Biography.html">About</a>
-                </li>
-                <li>
-                    <a class="leftfooter" href="contactPage.html">Contact</a>
-                </li>
-                <li>
-                    <a class="leftfooter" href="#">Adress</a>
-                </li>
-                <li>
-                    <a class="leftfooter" href="#">Copyright</a>
-                </li>
-            </ul>
-          
-            <ul class = social>
-                <li>
-                    <a href="#"><img class = inst src="https://cdn.pixabay.com/photo/2016/08/09/17/52/instagram-1581266_960_720.jpg" alt = "instagram"></a>
-                </li>
-                <li>
-                    <a href="#"><img class = fb src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Facebook_logo_%28square%29.png" alt= "facebook"></a>
-                </li>
-                <li>
-                    <a href="#"><img class = twit src="https://upload.wikimedia.org/wikipedia/fr/c/c8/Twitter_Bird.svg" alt="twitter"></a>
-                </li>
-                <li>
-                    <a href="#"><img class = yout src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Logoyoutube2011favicon.svg" alt="youtube"></a>
-                </li>
-            </ul>
-          
-          
-        </footer>
+            <div class="divButton">
+                <button class="openButton" onclick="openForm()" id="openButton">Contact me</button>
+            </div>
+            <div class="form" id="myForm">
+                <form action="#">
+                    <p><input type="text" name="name" placeholder="Name"></p>
+                    <p><input type="text" name="email" placeholder="Email"></p>
+                    <p>
+                    <textarea rows="4" name="comment" form="form" placeholder="Message"></textarea>
+                    </p>
+                    <input type="submit" class="button" value="Submit" id="myButton">
+                </form>
+            </div>
+            <div class="divThankYou">
+                <p class="thankYouMessage" id="thankYouMessage"> Thank you for reaching out! I will get back to you in the blink of an eye!</p>
+            </div> 
+        </div>          
+
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

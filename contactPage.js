@@ -1,5 +1,11 @@
 document.getElementById("myButton").addEventListener("click", messageEnvoi);
 
 function messageEnvoi() {
-  alert ("Thank you for reaching out! I will get back to you in the blink of an eye!");
+  document.getElementById("myForm").style.display = "none";
+  document.getElementById("thankYouMessage").style.display = "block";
+}
+
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+  document.getElementById("openButton").style.display = "none";
 }
