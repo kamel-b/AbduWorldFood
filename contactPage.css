@@ -56,8 +56,7 @@ h1{
 }
 .divButton{
   position: absolute;
-  bottom: 40%;
-  top: 55%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
@@ -70,6 +69,7 @@ h1{
     padding: 15px 32px;
     animation: pulse 3s infinite;
     border-radius: 30px;
+    font-size: 2vw;
 }
 
 .openButton:hover{
@@ -87,6 +87,7 @@ h1{
     padding: 15px 32px;
     width: auto;
     height: auto;
+    font-size: 2vw;
 }
 
 
@@ -108,6 +109,7 @@ input[type=text], textarea{
     position: absolute;
     bottom: 35%;
     display: none;
+    font-size: 2vw;
 }
 
 
@@ -123,3 +125,40 @@ input[type=text], textarea{
 :-moz-placeholder { /* Firefox 18- */
     font-size: 10px;
   }
+
+@media screen and (max-width: 768px) {
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-size: 8px;
+  }
+::-moz-placeholder { /* Firefox 19+ */
+    font-size: 8px;
+  }
+:-ms-input-placeholder { /* IE 10+ */
+    font-size: 8px;
+  }
+:-moz-placeholder { /* Firefox 18- */
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main{
+    height: 300px;
+    margin-bottom: 60px;
+    top: 25px;
+  }
+
+  .form{
+    margin-top: 20px;
+  }
+
+  .image{
+    display: none;
+  }
+
+  .message{
+    display: none;
+  }
+}
+ 
+ 
