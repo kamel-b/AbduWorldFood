@@ -9,57 +9,96 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <title>Abdu's World Food</title>    
-    <link rel="stylesheet" type="text/css" href="menunavfooter.css" />
-    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Asset|Black+Ops+One|Gamja+Flower|Italianno|Laila|Pacifico|Shojumaru" rel="stylesheet">
+    <link rel="stylesheet" href="menunavfooter.css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Dosis:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300" rel="stylesheet">
+
     <link rel="stylesheet" href="style_Accueil.css" />
   </head>
   <body>
 
     <!--MENU DE NAVIGATION HEADER-->  
-    <header class="hauteur_menu">
-          <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-            <a class="navbar-brand" href="index.html"><img class = "logo" src="https://s3.amazonaws.com/oxfam-us/www/static/media/resized/Oxfam_America-2014_WFD_placemat_420x263.jpg" alt="logo"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-              <ul class="navbar-nav nav-container">
-                <li class="dropdown nav-item">
-                  <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="articles.html">Articles<span class= "caret"></span></a>
-                    <ul class="dropdown-menu">
-                      <li><a class ="spain2" href="articles.html">Spain</a></li>
-                      <li><a class ="italia2" href="articles.html">Italia</a></li>
-                      <li><a class ="india2" href="articles.html">India</a></li>
-                      <li><a class ="japan2" href="articles.html">Japan</a></li>
-                      <li><a class ="usa2" href="articles.html">U.S.A.</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="gallery_page.html">Gallery</a>
-                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="Biography.html">Biography</a>
-                </li>    
-                <li class="nav-item">
-                  <a class="nav-link" href="contactPage.html">Contact</a>
-                </li>    
-              </ul>
-            </div>  
-          </nav>
-        </header>
+    <nav class="navbar navbar-default navbar-expand-lg nav-menu" style="background-color: black;">
+
+      <div class="container-fluid">
+  
+        <a href="index.html" class="navbar-brand text-uppercase"><img class = "logo" src="https://quoifaireabordeaux.com/wp-content/uploads/2018/09/Capture-d%E2%80%99e%CC%81cran-2018-09-28-a%CC%80-11.46.07-min.png" alt="logo"></a>
+  
+        <button class="navbar-toggler nav-button" type="button" data-toggle="collapse" data-target="#myNavbar">
+          <div class="line1 ham"></div>
+          <div class="line2 ham"></div>
+          <div class="line3 ham"></div>      
+        </button>
+  
+        <div class="collapse navbar-collapse justify-content-end" id="myNavbar">
+  
+          <ul class="navbar-nav nav-container ml-aulo">
+  
+              <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                  <ul class="navbar-nav nav-container">
+                    <li class="dropdown nav-item">
+                      <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="articles.html">Articles<span class= "caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a class ="spain2" href="articles.html">Spain</a></li>
+                        <li><a class ="italia2" href="articles.html">Italy</a></li>
+                        <li><a class ="india2" href="articles.html">India</a></li>
+                        <li><a class ="japan2" href="articles.html">Japan</a></li>
+                        <li><a class ="usa2" href="articles.html">U.S.A.</a></li>
+                      </ul>
+                    </li>
+              
+            <li class="nav-item">
+              <a class="nav-link m-2 menu-item" href="gallery_page.html"> Gallery </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link m-2 menu-item" href="Biography.html"> Biography </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link m-2 menu-item" href="contactPage.html"> Contact </a>
+            </li>
+  
+          </ul>
+  
+        </div>
+  
+      </div>
+
+    </nav>
+    
+
+    
+<!--CONTENU PAGE ACCUEIL - CAROUSEL-->
     
     <div class="container-fluid">        
-        
-      <!--CONTENU PAGE ACCUEIL - CAROUSEL-->
+      
       <div class="row">
           
           <div class="col-md-12 center_hn marge_haute">
               <h1 class="top20">Abdu's World Food</h1>
               <h2 class=" text-muted bottom20">Welcome to the yummiest food blog in France</h2>         
-          </div>         
+          </div>
 
+
+          <!-- Popup alert cookies-->
+          <div id="conteneur">
+            <div id="popup">
+            
+                <h2 class="center josefin">We value your privacy<span class="closePopup" onclick="close_croix();">&times;</span></h2>
+                                        
+                <p>
+                    We and our partners use technology such as cookies on our site to personalise content and ads, provide social media features, and analyse our traffic. Click below to consent to the use of this technology across the web. 
+                    You can change your mind and change your consent choices at anytime by returning to this site.                
+                </p>
+                
+                <p class="center">
+                    <button id="close_button" onclick="close_conteneur();"><span class="reduct_text">I accept</span></button>
+                </p>
+            </div>
+          </div>
             
           <div id="carouselExampleIndicators" class="carousel slide col-md-12 marge_basse" data-ride="carousel">
-                <ol class="carousel-indicators">
+                <ol class="carousel-indicators zindex1">
                   <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                   <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                   <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>                  
@@ -67,7 +106,7 @@
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <img class="d-block w-100" src="asset/pate_carbonara_800_400" alt="Pasta with carbonara">
-                    <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-caption d-none d-md-block zindex1">
                         <a href="articles.html#italy" class="lien">
                             <h5 class="display-2">Pasta with carbonara</h5>
                             <p class="lead">Discover the Italian flavors</p>
@@ -76,7 +115,7 @@
                   </div>
                   <div class="carousel-item">
                     <img class="d-block w-100" src="asset/poulet_tandori_800_400" alt="Tandoori chicken">
-                    <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-caption d-none d-md-block zindex1">
                         <a href="articles.html#india" class="lien">
                             <h5 class="display-2">Tandoori chicken</h5>
                             <p class="lead">Enjoy the chicken with spices, the typical Indian dish</p>
@@ -85,7 +124,7 @@
                   </div>
                   <div class="carousel-item">
                     <img class="d-block w-100" src="asset/sushi_800_400" alt="Sushi Japonais">
-                    <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-caption d-none d-md-block zindex1">
                         <a href="articles.html#japan" class="lien">
                             <h5 class="display-2">Japanese sushi</h5>
                             <p class="lead">The best fresh fish is in the land of the rising sun</p>
@@ -106,6 +145,7 @@
       </div>
     </div>
 
+
     <!--FOOTER-->  
     <footer id="foot">
         <ul class = acac>
@@ -120,6 +160,11 @@
           </li>
           <li>
             <a class="leftfooter" href="#">Copyright</a>
+          </li>
+          
+          <!--Lien footer à envoyer à Kiran-->
+          <li>
+              <a class="leftfooter" href="#" id='open_button_footer' onclick="open_conteneur();">Cookies</a>
           </li>
         </ul>
   
@@ -141,9 +186,23 @@
     
 
     <!-- Optional JavaScript -->
+    <script src="script_cookies_accueil.js"></script>
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>-->
+    <!--<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>-->
+  
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="menunavfooter.js"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
   </body>
 </html>

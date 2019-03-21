@@ -18,7 +18,7 @@ body
 p
 {
    text-align:justify ;
-   
+   font-size: 22px;
 }
 
 .imgbox 
@@ -88,8 +88,11 @@ p
 }
 section
 {
-   width: auto;
+   width: 95%;
    margin-left: 5%;
+   margin-top: 5%;
+   margin-bottom: 7%;
+
  
 }
 .imgright
@@ -107,3 +110,26 @@ html
    
 }
 
+.hero-section
+{
+   width: 100%;
+   margin-left: 0;
+   margin-top: 0%;
+   margin-bottom: 10%;
+}
+
+
+
+hr {
+   background-color: black;
+   padding-bottom: 1px;
+   margin-top: 10px;
+   width: 80%;
+   border: 0;
+   height: 1px;
+   background: #333;
+   background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+   background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
+   background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
+   background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
+}

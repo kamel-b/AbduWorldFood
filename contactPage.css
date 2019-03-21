@@ -7,7 +7,7 @@
   }
   100% {
     transform: scale(1.5);
-    opacity: 0;
+    opacity: 1;
   }
 }
 
@@ -20,19 +20,22 @@ h1{
     font-size: 6vw;
     padding-top: 100px;
     text-align: center;
-    font-family: pacifico;
+    font-family: josefin;
 }
 
 .message{
     color: rgb(67, 67, 67);
-    font-size: 4vw;
+    font-size: 2vw;
     margin: 20px;
     text-align: center;
+    font-family: josefin;
 }
 
 .main{
   position: relative;
   text-align: center;
+  width: 100%;
+  height: 100%;
 }
 
 .form{    
@@ -48,37 +51,25 @@ h1{
 
 .image{
     width: 100%;
-    height: auto;
+    height: 100%;
     margin-bottom: 2%;
 }
-.divButton
-{
+.divButton{
   position: absolute;
-  bottom: 40%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 50vw;
-}
-
-.button{
-    background-color:  rgb(67, 67, 67);
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    width: auto;
-    height: auto;
+  width: 100%;
 }
 
 .openButton{
-    background-color:  rgb(67, 67, 67);
+    background-color: rgb(255, 102, 102);
     border: none;
     color: white;
     padding: 15px 32px;
-    animation: pulse 1s infinite;
+    animation: pulse 3s infinite;
     border-radius: 30px;
-    width: auto;
-    height: auto;
+    font-size: 2vw;
 }
 
 .openButton:hover{
@@ -89,6 +80,16 @@ h1{
     animation-play-state: paused;   
 }
 
+.button{
+    background-color:  rgb(255, 102, 102);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    width: auto;
+    height: auto;
+    font-size: 2vw;
+}
+
 
 input[type=text], textarea{
     width: 100%;
@@ -96,15 +97,19 @@ input[type=text], textarea{
 }
 
 .thankYouMessage{
-    width: 100%;
+    width: 50%;
     height: auto;
-    background-color:  rgb(67, 67, 67);
+    background-color: rgb(255, 102, 102);
     border: none;
+    border-radius: 30px;
     color: white;
+    left: 50%;
+    transform: translate(-50%, -50%);
     padding: 15px 32px;
     position: absolute;
     bottom: 35%;
     display: none;
+    font-size: 2vw;
 }
 
 
@@ -120,3 +125,40 @@ input[type=text], textarea{
 :-moz-placeholder { /* Firefox 18- */
     font-size: 10px;
   }
+
+@media screen and (max-width: 768px) {
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-size: 8px;
+  }
+::-moz-placeholder { /* Firefox 19+ */
+    font-size: 8px;
+  }
+:-ms-input-placeholder { /* IE 10+ */
+    font-size: 8px;
+  }
+:-moz-placeholder { /* Firefox 18- */
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main{
+    height: 300px;
+    margin-bottom: 60px;
+    top: 25px;
+  }
+
+  .form{
+    margin-top: 20px;
+  }
+
+  .image{
+    display: none;
+  }
+
+  .message{
+    display: none;
+  }
+}
+ 
+ 

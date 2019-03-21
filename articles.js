@@ -1,15 +1,3 @@
-/*function changeImage() {
-
-    if (document.getElementById("image0").src == "https://upload.wikimedia.org/wikipedia/commons/6/65/Gambas_al_ajillo.jpg") 
-    {
-        document.getElementById("image0").src = "https://cdn.pixabay.com/photo/2015/10/12/23/57/spain-985372_960_720.jpg";
-    }
-    else 
-    {
-        document.getElementById("image0").src = "https://upload.wikimedia.org/wikipedia/commons/6/65/Gambas_al_ajillo.jpg";
-    }
-
-}*/
 
 
 function attachClick(elementId, firstImage, secondImage) {
