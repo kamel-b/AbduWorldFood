@@ -92,7 +92,17 @@
                 </p>
                 
                 <p class="center">
-                    <button id="close_button" onclick="close_conteneur();"><span class="reduct_text">I accept</span></button>
+                  <!--
+                  <button id="close_button" onclick="close_conteneur();">
+                      <span class="reduct_text">I accept</span>
+                    </button>
+                  -->  
+
+                    <br>
+
+                    <a href="#" id="close_button" onclick="close_conteneur();">
+                      <span class="reduct_text">I accept</span>
+                    </a>
                 </p>
             </div>
           </div>
@@ -108,8 +118,10 @@
                     <img class="d-block w-100" src="asset/pate_carbonara_800_400" alt="Pasta with carbonara">
                     <div class="carousel-caption d-none d-md-block zindex1">
                         <a href="articles.html#italy" class="lien">
+                          <div class="fond">
                             <h5 class="display-2">Pasta with carbonara</h5>
                             <p class="lead">Discover the Italian flavors</p>
+                          </div>
                         </a>
                     </div>
                   </div>
@@ -117,8 +129,10 @@
                     <img class="d-block w-100" src="asset/poulet_tandori_800_400" alt="Tandoori chicken">
                     <div class="carousel-caption d-none d-md-block zindex1">
                         <a href="articles.html#india" class="lien">
+                          <div class="fond">
                             <h5 class="display-2">Tandoori chicken</h5>
                             <p class="lead">Enjoy the chicken with spices, the typical Indian dish</p>
+                          </div>
                         </a>
                     </div>
                   </div>
@@ -126,8 +140,10 @@
                     <img class="d-block w-100" src="asset/sushi_800_400" alt="Sushi Japonais">
                     <div class="carousel-caption d-none d-md-block zindex1">
                         <a href="articles.html#japan" class="lien">
+                          <div class="fond">
                             <h5 class="display-2">Japanese sushi</h5>
                             <p class="lead">The best fresh fish is in the land of the rising sun</p>
+                          </div>
                         </a>
                     </div>
                   </div>
@@ -162,10 +178,11 @@
             <a class="leftfooter" href="#">Copyright</a>
           </li>
           
-          <!--Lien footer à envoyer à Kiran-->
+          <!--Lien cookie footer
           <li>
               <a class="leftfooter" href="#" id='open_button_footer' onclick="open_conteneur();">Cookies</a>
           </li>
+          -->
         </ul>
   
         <ul class = social>
