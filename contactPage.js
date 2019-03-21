@@ -8,3 +8,9 @@ function messageEnvoi() {
   document.getElementById("thankYouMessage").style.display = "block";
   document.getElementById("myForm").style.display = "none";
 }
+
+document.getElementById("myButton").addEventListener("click", function(event){
+  event.preventDefault()
+});
+
+
