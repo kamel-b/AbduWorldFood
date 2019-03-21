@@ -1,4 +1,4 @@
-body {
+.pic {
 	background: linear-gradient(
 		rgba(0, 0, 0, -1.3),
 		rgba(0, 0, 0, -10.4)),    
@@ -12,7 +12,7 @@ body {
 	align-items: center;
 }
 
-
+/*NAVBAR SECTION*/
 
 * {
 	position: relative;
@@ -66,7 +66,7 @@ body {
 	background-size: cover;
 	color: transparent;
 	text-align: center;
-	font-size: 1.2em;
+	font-size: 1.4em;
 	cursor: pointer;
 	outline: none;
 	backface-visibility: hidden;
@@ -82,12 +82,12 @@ body {
 
 .csstransforms .cn-wrapper {
 	position: fixed;
-	top: -1%;
-	left: 47%;
+	top: -2%;
+	left: 49%;
 	z-index: 10;
 	margin-top: -12em;
 	margin-left: -13.5em;
-	width: 31em;
+	width: 28em;
 	height: 27em;
 	border-radius: 50%;
 	background: transparent;
@@ -123,7 +123,7 @@ body {
 	border-radius: 50%;
 	border: solid;
 	border-color: white;
-	opacity: 1;
+	opacity: 0.90;
 	-webkit-transition: all .3s ease;
 	-moz-transition: all .3s ease;
 	transition: all .3s ease;
@@ -219,8 +219,8 @@ body {
 	-webkit-transform: rotate(-20deg) skew(60deg);
 	-moz-transform: rotate(-20deg) skew(60deg);
 	-ms-transform: rotate(-20deg) skew(60deg);
-	transform: rotate(-31deg) skew(60deg);
-	box-shadow: 1px 1px 10px;
+	transform: rotate(-29deg) skew(60deg);
+	box-shadow: 1px 10px 10px;
 	
 }
 
@@ -228,8 +228,8 @@ body {
 	-webkit-transform: rotate(12deg) skew(60deg);
 	-moz-transform: rotate(12deg) skew(60deg);
 	-ms-transform: rotate(12deg) skew(60deg);
-	transform: rotate(181deg) skew(60deg);
-	box-shadow: 1px 1px 10px;
+	transform: rotate(179deg) skew(60deg);
+	box-shadow: 1px 10px 10px;
 
 }
 
@@ -238,7 +238,7 @@ body {
 	-moz-transform: rotate(44deg) skew(60deg);
 	-ms-transform: rotate(44deg) skew(60deg);
 	transform: rotate(217deg) skew(60deg);
-	box-shadow: 1px 1px 10px;
+	box-shadow: 1px 10px 10px;
 
 }
 
@@ -247,7 +247,7 @@ body {
 	-moz-transform: rotate(76deg) skew(60deg);
 	-ms-transform: rotate(76deg) skew(60deg);
 	transform: rotate(255deg) skew(60deg);
-	box-shadow: 1px 1px 10px;
+	box-shadow: 1px 10px 10px;
 	
 }
 
@@ -256,7 +256,7 @@ body {
 	-moz-transform: rotate(108deg) skew(60deg);
 	-ms-transform: rotate(108deg) skew(60deg);
 	transform: rotate(-67deg) skew(60deg);
-	box-shadow: 1px 1px 10px;
+	box-shadow: 1px 10px 10px;
 
 }
 
@@ -265,7 +265,7 @@ body {
 	-moz-transform: rotate(140deg) skew(60deg);
 	-ms-transform: rotate(140deg) skew(60deg);
 	transform: rotate(140deg) skew(60deg);
-	box-shadow: 1px 1px 10px;
+	box-shadow: 1px 10px 10px;
 
 }
 
@@ -274,7 +274,7 @@ body {
 	-moz-transform: rotate(172deg) skew(60deg);
 	-ms-transform: rotate(172deg) skew(60deg);
 	transform: rotate(172deg) skew(60deg);
-	box-shadow: 1px 1px 10px;
+	box-shadow: 1px 10px 10px;
 
 }
 
@@ -366,6 +366,12 @@ body {
 	}
 }
 
+
+
+/*FOOTER SECTION*/
+
+
+
 #foot{
   background-color: #000 !important;
   height: 60px;
@@ -377,11 +383,12 @@ body {
 
 .acac{
   display: inline-flex;
-  font-size: 15px;
+  font-size: 13px;
   justify-content: space-evenly;
   list-style-type: none;
 	width: 50%;
-	font-family: 'Josefin Sans', sans-serif uppercase;
+	text-transform: uppercase;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 .leftfooter{
@@ -446,10 +453,32 @@ body {
   {
     display: none;
   }
-  .social
-  {
-    margin-left: 70px;
-    justify-content: space-around;
+  .social{
+		display: flex;
+		justify-content: space-between;
+		left: auto;
+		width: auto;
+	}
+	.inst,
+	.fb,
+	.twit,
+	.yout{
+		height: 35px;
+	}
+}
 
-  }
+@media (max-width: 600px)
+{
+	.social{
+		display: flex;
+		justify-content: space-between;
+		left: auto;
+		width: auto;
+	}
+	.inst,
+	.fb,
+	.twit,
+	.yout{
+		height: 35px;
+	}
 }
