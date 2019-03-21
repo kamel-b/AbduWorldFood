@@ -87,6 +87,11 @@
     border-radius: 100%;
   }
   100% {
+    Gallery
+    Biography
+    Contact
+
+
     transform: scale(1.2);
   }
 }
@@ -263,7 +268,6 @@
 
 #foot{
   background-color: #000 !important;
-  height: 60px;
   opacity: 0.95;
   width: 100%;
   z-index: 1;
