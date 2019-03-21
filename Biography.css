@@ -16,27 +16,26 @@ h3 {
     padding-bottom: 15px;
     font-family: 'Pacifico', cursive;
     font-size: 30px;
+    text-align: center;
 }
 
 p{
     text-align: justify;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 17px;
-    color:rgb(34, 31, 31);
+    color: black;
 }
 
 hr {
-    background-color: black;
+    background-color: white;
     padding-bottom: 1px;
     margin-top: 10px;
     width: 80%;
     border: 0;
     height: 1px;
-    background: #333;
-    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
-    background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
-    background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
-    background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
 }
 
   /*SECTION 1 */
@@ -60,44 +59,122 @@ hr {
     }
     }
     
-.boat{
-    width: 400px;
-    height: 215px;
-    padding-bottom: 2%;
-    width: 100%;
-    }
-.chickenpicture{
-    width: 400px;
-    height: 215px;
-    width: 100%;
-}
-.Landscape{
-    width: 400px;
-    height: 215px;
-    width: 100%;
-}
-.abdupicture{
-    width: 400px;
-    height: 430px;
-    padding-bottom: 2%;
-    margin-top: 0.5%;
-    width: 100%;
-}
-.temple{
-    width: 400px;
-    height: 215px;
-    padding-bottom: 2%;
-    width: 100%;
-}
-
-.bord{
-    width: 400px;
-    height: 215px;
-    width: 100%;
-}
-
+    .boat{
+        width: 400px;
+        height: 215px;
+        padding-bottom: 1%;
+        width: 100%;
+        opacity: 0.9;
+        }
+      .chickenpicture{
+        width: 400px;
+        height: 215px;
+        width: 100%;
+      }
+      .Landscape{
+        width: 400px;
+        height: 215px;
+        width: 100%;
+      }
+      
+      .usabridge{
+        width: 400px;
+        height: 215px;
+        width: 100%;
+        padding-bottom: 1%;
+        width: 100%;
+      }
+      
+      .indiapicture{
+        width: 400px;
+        height: 215px;
+        width: 100%;
+      }
+      .abdupicture{
+        width: 400px;
+        height: 430px;
+        padding-bottom: 1%;
+        margin-top: 0.5%;
+        width: 100%;
+      }
+    
+      .temple{
+        width: 400px;
+        height: 215px;
+        padding-bottom: 1%;
+        width: 100%;
+        opacity: 0.8;
+      }
+      
+      .bord{
+        width: 400px;
+        height: 215px;
+        width: 100%;
+        opacity: 0.8;
+      }
 
  /*SECTION 2 */
+.section2{
+     padding-bottom: 2%;
+ }
+.section2 h2{
+    margin-bottom: 20px;
+    font-family:'Josefin Sans', bold;
+    text-align: center;
+ }
+ .line {
+    width: 50px;
+    height: 2px;
+    background-color: #000;
+    margin: 0 auto;
+  }
+  
+  
+  .portrait-text {
+    margin-top: 20px;
+  }
+  
+  .portrait-text h3 {
+    margin-bottom: 20px;
+  }
+  
+  .portrait-text p {
+    margin-bottom: 0;
+    text-align: center;
+  }
+  
+  .pitalic{
+    font-style: italic;
+    font-family: 'Josefin Sans';
+    font-size: 19px;
+  }
+
+.abdouV2{
+    position: relative;
+    width: 140px;
+    border: 10px solid #fff;
+    border-bottom: 45px solid #fff;
+    -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 4px 6px rgba(0,0,0,.3);
+    box-shadow: 0 4px 6px rgba(0,0,0,.3);
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    margin-bottom: -1%;
+  }
+
+
+
+ /*SECTION 3 */
+
+ .section3 p {
+    font-style: italic;
+    font-family: 'Josefin Sans';
+    font-size: 17px; 
+ }
 
 .text-faded{color:rgba(255,255,255,.85)}
 
@@ -124,6 +201,11 @@ hr {
     margin-top:-3rem;
     max-width:50vw;
 }
+}
+
+.linkbio{
+    color: white;
+    text-decoration: underline;
 }
 
  /*EFFET JS */
