@@ -2,13 +2,13 @@
 const conteneur = document.getElementById('conteneur');
 
 const close_conteneur = () => {
-     conteneur.style.visibility = 'hidden';
+     conteneur.style.display = 'none';
 }
 
 const close_croix = () => {
-     conteneur.style.visibility = 'hidden';
+     conteneur.style.display = 'none';
 }
 
 const open_conteneur = () => {
-     conteneur.style.visibility = 'visible';
+     conteneur.style.display = 'block';
 }

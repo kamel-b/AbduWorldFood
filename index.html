@@ -9,16 +9,23 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <title>Abdu's World Food</title>    
-    <link rel="stylesheet" href="menunavfooter.css">
+    <meta name="description" content="Circular Navigation Styles - Building a Circular Navigation with CSS Transforms | Codrops " />
+		<meta name="keywords" content="css transforms, circular navigation, round navigation, circular menu, tutorial" />
+		<meta name="author" content="Sara Soueidan for Codrops" />
+    
     
     <link href="https://fonts.googleapis.com/css?family=Dosis:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300" rel="stylesheet">
+
+		<link rel="stylesheet" type="text/css" href="navfooter2.css" />
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300" rel="stylesheet">
+		<script src="modernizr-2.6.2.min.js"></script>
 
     <link rel="stylesheet" href="style_Accueil.css" />
   </head>
   <body>
 
-    <!--MENU DE NAVIGATION HEADER-->  
+    <!--OLD MENU DE NAVIGATION HEADER  
     <nav class="navbar navbar-default navbar-expand-lg nav-menu" style="background-color: black;">
 
       <div class="container-fluid">
@@ -65,7 +72,27 @@
       </div>
 
     </nav>
+    -->
     
+  <!-- Start Nav Structure -->
+  <button class="cn-button" id="cn-button"></button>
+  <div class="cn-wrapper" id="cn-wrapper">
+    <ul>
+      
+      <li><a href="index.html"><span>Home</span></a></li>
+      <li><a href="Biography.html"><span>Biography</span></a></li>
+      <li><a href="articles.html"><span>Articles</span></a></li>
+      <li><a href="gallery_page.html"><span>Gallery</span></a></li>
+      <li><a href="contactPage.html"><span>Contact</span></a></li>
+  
+     </ul>
+  </div>
+  <!-- End of Nav Structure -->
+
+  <!-- /container 
+
+  <div class = pic></div>
+-->
 
     
 <!--CONTENU PAGE ACCUEIL - CAROUSEL-->
@@ -92,7 +119,12 @@
                 </p>
                 
                 <p class="center">
-                    <button id="close_button" onclick="close_conteneur();"><span class="reduct_text">I accept</span></button>
+
+                    <br>
+
+                    <a href="#" id="close_button" onclick="close_conteneur();">
+                      <span class="reduct_text color_Iaccept">I accept</span>
+                    </a>
                 </p>
             </div>
           </div>
@@ -108,8 +140,10 @@
                     <img class="d-block w-100" src="asset/pate_carbonara_800_400" alt="Pasta with carbonara">
                     <div class="carousel-caption d-none d-md-block zindex1">
                         <a href="articles.html#italy" class="lien">
+                          <div class="fond">
                             <h5 class="display-2">Pasta with carbonara</h5>
                             <p class="lead">Discover the Italian flavors</p>
+                          </div>
                         </a>
                     </div>
                   </div>
@@ -117,8 +151,10 @@
                     <img class="d-block w-100" src="asset/poulet_tandori_800_400" alt="Tandoori chicken">
                     <div class="carousel-caption d-none d-md-block zindex1">
                         <a href="articles.html#india" class="lien">
+                          <div class="fond">
                             <h5 class="display-2">Tandoori chicken</h5>
                             <p class="lead">Enjoy the chicken with spices, the typical Indian dish</p>
+                          </div>
                         </a>
                     </div>
                   </div>
@@ -126,8 +162,10 @@
                     <img class="d-block w-100" src="asset/sushi_800_400" alt="Sushi Japonais">
                     <div class="carousel-caption d-none d-md-block zindex1">
                         <a href="articles.html#japan" class="lien">
+                          <div class="fond">
                             <h5 class="display-2">Japanese sushi</h5>
                             <p class="lead">The best fresh fish is in the land of the rising sun</p>
+                          </div>
                         </a>
                     </div>
                   </div>
@@ -162,10 +200,11 @@
             <a class="leftfooter" href="#">Copyright</a>
           </li>
           
-          <!--Lien footer à envoyer à Kiran-->
+          <!--Lien cookie footer
           <li>
               <a class="leftfooter" href="#" id='open_button_footer' onclick="open_conteneur();">Cookies</a>
           </li>
+          -->
         </ul>
   
         <ul class = social>
@@ -197,7 +236,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
-    <script type="text/javascript" src="menunavfooter.js"></script>
+    <script src="navfooter2.js"></script>
+		<script src="nav-footer2.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
