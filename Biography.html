@@ -9,142 +9,106 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<link rel="stylesheet" href="Biography.css">
 		<link rel="stylesheet" href="Biography.js">
-		<link rel="stylesheet" href="menunavfooter.css">
 		<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
    	<link href="https://fonts.googleapis.com/css?family=Asset|Black+Ops+One|Gamja+Flower|Italianno|Laila|Pacifico|Shojumaru" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Dosis:300" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300" rel="stylesheet">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-
+		<meta name="description" content="Circular Navigation Styles - Building a Circular Navigation with CSS Transforms | Codrops " />
+		<meta name="keywords" content="css transforms, circular navigation, round navigation, circular menu, tutorial" />
+		<meta name="author" content="Sara Soueidan for Codrops" />
+		<link rel="stylesheet" type="text/css" href="navfooter2.css" />
+		<link rel="stylesheet" href="menunavfooter.css">
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300" rel="stylesheet">
+		<script src="modernizr-2.6.2.min.js"></script>
 	</head>
 
 	<body>
 
 <!--HEADER-->
-<nav class="navbar navbar-default navbar-expand-lg nav-menu">
-
-	<div class="container-fluid">
-
-		<a href="index.html" class="navbar-brand text-uppercase"><img class = "logo" src="https://image.noelshack.com/fichiers/2019/12/4/1553124843-logov2.png" alt="logo"></a>
-
-		<button class="navbar-toggler nav-button" type="button" data-toggle="collapse" data-target="#myNavbar">
-			<div class="line1 ham"></div>
-			<div class="line2 ham"></div>
-			<div class="line3 ham"></div>      
-		</button>
-
-		<div class="collapse navbar-collapse justify-content-end" id="myNavbar">
-
-			<ul class="navbar-nav nav-container ml-aulo">
-
-					<div class="collapse navbar-collapse" id="collapsibleNavbar">
-							<ul class="navbar-nav nav-container">
-								<li class="dropdown nav-item">
-									<a class="dropdown-toggle nav-link" data-toggle="dropdown" href="articles.html">Articles<span class= "caret"></span></a>
-									<ul class="dropdown-menu">
-										<li><a class ="spain2" href="articles.html">Spain</a></li>
-										<li><a class ="italia2" href="articles.html">Italy</a></li>
-										<li><a class ="india2" href="articles.html">India</a></li>
-										<li><a class ="japan2" href="articles.html">Japan</a></li>
-										<li><a class ="usa2" href="articles.html">U.S.A.</a></li>
-									</ul>
-								</li>
-					
-				<li class="nav-item">
-					<a class="nav-link m-2 menu-item" href="gallery_page.html"> Gallery </a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link m-2 menu-item" href="Biography.html"> Biography </a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link m-2 menu-item" href="contactPage.html"> Contact </a>
-				</li>
-
-
-			</ul>
-
-		</div>
-
-	</div>
-
-
-</nav>
-
-<section class="hero-section">
-
-<div class="container-fluid">
-	
-	<div class="row justify-content-center">
+<button class="cn-button" id="cn-button"></button>
+<div class="cn-wrapper" id="cn-wrapper">
+	<ul>
 		
-		<div class="col-12">
-			<h1 class="abdu"> Biography </h1>
-		</div>
-		
-	</div>  
-	
+		<li><a href="index.html"><span>Home</span></a></li>
+		<li><a href="Biography.html"><span>Biography</span></a></li>
+		<li><a href="articles.html"><span>Articles</span></a></li>
+		<li><a href="gallery_page.html"><span>Gallery</span></a></li>
+		<li><a href="contactPage.html"><span>Contact</span></a></li>
+
+	 </ul>
 </div>
-				
-</section>
+<!-- End of Nav Structure -->
+
+<!-- /container -->
+
+<div class = pic>
+			<h1 class="abdu"> Biography </h1>
+</div>
+	</body>	
+
 			  
 
 <!--SECTION 1-->
+<!--SECTION 1-->
 	
-	<section>
-			<div class="row">
-				<hr class="hr1">
-					<div class="grid" id="grid">
-							<div class="sm-3">
-									<img class="boat" src="https://image.noelshack.com/fichiers/2019/10/4/1551998971-paysage.jpeg" alt="Boat">
-								</div>
-
-								<div class="sm-3">
-									<img class="chickenpicture" src="https://image.noelshack.com/fichiers/2019/12/3/1553091292-chicken.jpeg" alt="Chicken">
-								</div>
-								
-								<div class="sm-3">
-									<img class="usabridge" src="https://image.noelshack.com/fichiers/2019/12/3/1553089748-usa.jpeg" alt="Bridge">
-								</div>
-
-								<div class="sm-3">
-										<img class="indiapicture" src="https://image.noelshack.com/fichiers/2019/12/3/1553090209-inde.jpg" alt="India picture">
-									</div>
-								<div class="sm-3">
-									<img class="temple" src="https://image.noelshack.com/fichiers/2019/11/3/1552481221-paysagejapon2.jpg" alt="Temple Japonais">
-								</div>
-							
-								<div class="sm-3">
-									<img class="bord" src="https://image.noelshack.com/fichiers/2019/11/3/1552471603-mediterannee.jpg" alt="Bord de mer">
-								</div>
-					</div>
-				<hr>
-			</div>
-	</section>
-
-	<!--SECTION 2-->
-	<section class="section2">
-			<div class="container">
-					<div class="row">
-						<div class="col-12">
-	
-								<h2>Portrait</h2>
-								<div class="line"></div>
+<section>
+	<div class="row">
+		<hr class="hr1">
+			<div class="grid" id="grid">
+					<div class="sm-3">
+							<img class="boat ok" src="https://image.noelshack.com/fichiers/2019/10/4/1551998971-paysage.jpeg" alt="Boat">
 						</div>
-					</div>
-			</div>
-		
-					<div class="container">
-						<div class="row">
-							<div class="col-12 col-sm-8">
-								<div class="portrait-text">
-									<h3>Hello my friends !</h3>
-									<p class="pitalic">In this page, I am going to discover my story and what motivated me to travel around the world.</p><br><p class="pitalic">Indeed, my life is made of upheavals, adventures and wonderful encounters.</p>
-								</div>
+
+						<div class="sm-3">
+							<img class="chickenpicture ok" src="https://image.noelshack.com/fichiers/2019/12/3/1553091292-chicken.jpeg" alt="Chicken">
+						</div>
+						
+						<div class="sm-3">
+							<img class="usabridge ok" src="https://image.noelshack.com/fichiers/2019/12/3/1553089748-usa.jpeg" alt="Bridge">
+						</div>
+
+						<div class="sm-3">
+								<img class="indiapicture ok" src="https://image.noelshack.com/fichiers/2019/12/3/1553090209-inde.jpg" alt="India picture">
 							</div>
+						<div class="sm-3">
+							<img class="temple ok" src="https://image.noelshack.com/fichiers/2019/11/3/1552481221-paysagejapon2.jpg" alt="Temple Japonais">
+						</div>
+					
+						<div class="sm-3">
+							<img class="bord ok" src="https://image.noelshack.com/fichiers/2019/11/3/1552471603-mediterannee.jpg" alt="Bord de mer">
+						</div>
+			</div>
+		<hr>
+	</div>
+</section>
+
+<!--SECTION 2-->
+<section class="section2">
+	<div class="container">
+			<div class="row">
+				<div class="col-12">
+
+						<h2>Portrait</h2>
+						<div class="line"></div>
+				</div>
+			</div>
+	</div>
+
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-sm-8">
+						<div class="portrait-text">
+							<h3>Hello my friends !</h3>
+							<p class="pitalic">In this page, I am going to discover my story and what motivated me to travel around the world.</p><br><p class="pitalic">Indeed, my life is made of upheavals, adventures and wonderful encounters.</p>
 						</div>
 					</div>
-					<img class="abdouV2" src="https://image.noelshack.com/fichiers/2019/12/3/1553115344-abdou.png" alt="Abdu" title="It's me!">
-	</section>
-	<hr>
+				</div>
+			</div>
+			<img class="abdouV2" src="https://image.noelshack.com/fichiers/2019/12/3/1553115344-abdou.png" alt="Abdu" title="It's me!">
+			<hr>
+		</section>
+		
 	<!--SECTION 3-->
 				<section class="section3">
 					<div class="container">
@@ -165,7 +129,6 @@
 					  </div>
 					</div>
 				  </section>
-				
 				  <section class="section3">
 					<div class="container">
 					  <div class="product-item">
@@ -186,7 +149,7 @@
 					  </div>
 					</div>
 				  </section>
-				
+
 				  <section class="section3">
 					<div class="container">
 					  <div class="product-item">
@@ -222,39 +185,41 @@
 
 	<!--FOOTER-->
 
-  <footer id="foot">
-    <ul class = acac>
-      <li>
-        <a class="leftfooter" href="Biography.html">About</a>
-      </li>
-      <li>
-        <a class="leftfooter" href="contactPage.html">Contact</a>
-      </li>
-      <li>
-        <a class="leftfooter" href="#">Adress</a>
-      </li>
-      <li>
-        <a class="leftfooter" href="#">Copyright</a>
-      </li>
-    </ul>
-
-    <ul class = social>
-      <li>
-        <a href="#"><img class = inst src="https://cdn.pixabay.com/photo/2016/08/09/17/52/instagram-1581266_960_720.jpg" alt = "instagram"></a>
-      </li>
-      <li>
-        <a href="#"><img class = fb src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Facebook_logo_%28square%29.png" alt= "facebook"></a>
-      </li>
-      <li>
-        <a href="#"><img class = twit src="https://upload.wikimedia.org/wikipedia/fr/c/c8/Twitter_Bird.svg" alt="twitter"></a>
-      </li>
-      <li>
-        <a href="#"><img class = yout src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Logoyoutube2011favicon.svg" alt="youtube"></a>
-      </li>
-    </ul>
-
-  </footer>
-
+	<footer id="foot">
+		<ul class = acac>
+			<li>
+			<a class="leftfooter" href="Biography.html">About</a>
+			</li>
+			<li>
+			<a class="leftfooter" href="contactPage.html">Contact</a>
+			</li>
+			<li>
+			<a class="leftfooter" href="#">Adress</a>
+			</li>
+			<li>
+			<a class="leftfooter" href="#">Copyright</a>
+			</li>
+			<li>
+			<a class="leftfooter" href="#" id='open_button_footer' onclick="open_conteneur();">Cookies</a>
+			</li>
+		</ul>
+	
+		<ul class = social>
+			<li>
+			<a href="#"><img class = inst src="https://cdn.pixabay.com/photo/2016/08/09/17/52/instagram-1581266_960_720.jpg" alt = "instagram"></a>
+			</li>
+			<li>
+			<a href="#"><img class = fb src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Facebook_logo_%28square%29.png" alt= "facebook"></a>
+			</li>
+			<li>
+			<a href="#"><img class = twit src="https://upload.wikimedia.org/wikipedia/fr/c/c8/Twitter_Bird.svg" alt="twitter"></a>
+			</li>
+			<li>
+			<a href="#"><img class = yout src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Logoyoutube2011favicon.svg" alt="youtube"></a>
+			</li>
+		</ul>
+	
+		</footer>
 	<!--SCRIPT-->
 	<script>
 			function myFunction() {
@@ -263,7 +228,9 @@
 				setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
 			}
 	</script>
-	<script type="text/javascript" src="menunavfooter.js"></script>
+	<script src="navfooter2.js"></script>
+	<script src="NavFooter2.js"></script>
+	<script src ="script_cookies_accueil.js"></script>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"crossorigin="anonymous"></script>
@@ -272,8 +239,6 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-	
-	<script type="text/javascript" src="menunavfooter.js"></script>
 	
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
