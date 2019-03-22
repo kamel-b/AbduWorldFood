@@ -1,3 +1,4 @@
+
 body{
 	padding: 0;
 	margin: 0;
@@ -19,7 +20,7 @@ h1{
 	font-size: 6vw;
 	text-align: center;
 	margin-bottom: 10%;
-	color:black;
+	color:white;
 	margin-top:30px;
 	padding-top:90px;
 	font-family:'Josefin Sans', sans-serif;
@@ -43,14 +44,15 @@ h2{
 h3:hover{
 	  -ms-transform: scale(1); /* IE 9 */
   -webkit-transform: scale(1); /* Safari 3-8 */
-  transform: scale(1.1) !important; 
+  transform: scale(1.02) !important; 
+	text-decoration: underline;
 }
 h3{
 	margin-top: 30px;
 	color: black;
 }
 p{
-	font-size: 18px;
+	font-size: 20px;
 	font-family:'Josefin Sans', sans-serif;
 
 }
@@ -78,10 +80,17 @@ section{
 	margin: auto;
 	opacity: 1 !important;;
 }
+.modal{
+	background-color: rgba(0,0,0,0.6);
+}
 .modal-dialog{
   max-width: 850px;
 	max-height: 600px;
 	margin: 60px auto;
+}
+.close{
+	color: rgba(255,255,255);
+	cursor: pointer !important;
 }
 
 a >.img-ronde:hover{
@@ -103,11 +112,16 @@ a >.img-ronde:hover{
   h3{
 		margin-top:0px;
 	}
+	p{
+	 margin-bottom: 50px;
+	}
+
 	.img-ronde{
 		width: 90% !important;;
 		height: 70% !important;;
 	  border: 0px;
 		box-shadow: unset;
+		margin: auto !important;
 
 	}
 	a >.img-ronde:hover{

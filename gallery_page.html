@@ -5,80 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="gallery_style.css">
-    <link rel="stylesheet" type="text/css" href="menunavfooter.css"/>
+    <link rel="stylesheet" type="text/css" href="navfooter2.css"/>
+    <link rel="stylesheet" href="menunavfooter.css">
     <link href="https://fonts.googleapis.com/css?family=Dosis:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Asset|Black+Ops+One|Gamja+Flower|Italianno|Laila|Pacifico|Shojumaru" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <meta name="description" content="Circular Navigation Styles - Building a Circular Navigation with CSS Transforms | Codrops " />
+		<meta name="keywords" content="css transforms, circular navigation, round navigation, circular menu, tutorial" />
+    <meta name="author" content="Sara Soueidan for Codrops" />
+    <script src="modernizr-2.6.2.min.js"></script>
     <title>Abdu's World Food / Gallery</title>
+
   </head>
   <header>
-    <nav class="navbar navbar-default navbar-expand-lg nav-menu">
+    		<!-- Start Nav Structure -->
+				<button class="cn-button" id="cn-button"></button>
+				<div class="cn-wrapper" id="cn-wrapper">
+					<ul>
+						
+						<li><a href="index.html"><span>Home</span></a></li>
+						<li><a href="Biography.html"><span>Biography</span></a></li>
+						<li><a href="articles.html"><span>Articles</span></a></li>
+						<li><a href="gallery_page.html"><span>Gallery</span></a></li>
+						<li><a href="contactPage.html"><span>Contact</span></a></li>
+				
+					 </ul>
+				</div>
+				<!-- End of Nav Structure -->
+			</div>
+				</div>
+				
+				<!-- /container -->
 
-      <div class="container-fluid">
-
-        <a href="index.html" class="navbar-brand text-uppercase"><img class = "logo" src="https://quoifaireabordeaux.com/wp-content/uploads/2018/09/Capture-d%E2%80%99e%CC%81cran-2018-09-28-a%CC%80-11.46.07-min.png" alt="logo"></a>
-
-        <button class="navbar-toggler nav-button" type="button" data-toggle="collapse" data-target="#myNavbar">
-          <div class="line1 ham"></div>
-          <div class="line2 ham"></div>
-          <div class="line3 ham"></div>      
-        </button>
-
-        <div class="collapse navbar-collapse justify-content-end" id="myNavbar">
-
-          <ul class="navbar-nav nav-container ml-aulo">
-
-              <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                  <ul class="navbar-nav nav-container">
-                    <li class="dropdown nav-item">
-                      <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="articles.html">Articles<span class= "caret"></span></a>
-                      <ul class="dropdown-menu">
-                        <li><a class ="spain2" href="articles.html">Spain</a></li>
-                        <li><a class ="italia2" href="articles.html">Italy</a></li>
-                        <li><a class ="india2" href="articles.html">India</a></li>
-                        <li><a class ="japan2" href="articles.html">Japan</a></li>
-                        <li><a class ="usa2" href="articles.html">U.S.A.</a></li>
-                      </ul>
-                    </li>
-              
-            <li class="nav-item">
-              <a class="nav-link m-2 menu-item" href="gallery_page.html"> Gallery </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link m-2 menu-item" href="Biography.html"> Biography </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link m-2 menu-item" href="contactPage.html"> Contact </a>
-            </li>
-
-
-          </ul>
-
+				<div class = pic>
+          <h1 class="abdu">Gallery</h1>
         </div>
-
-      </div>
-
-
-    </nav>
-  
-  <section class="hero-section">
-    
-    <div class="container-fluid">
-      
-      <div class="row justify-content-center">
-        
-        <div class="col-12">
-
-          <h1 class="abdu"> GALLERY </h1>
-
-          <h1 class="abdu"> Gallery </h1>
-        </div>
-        
-      </div>  
-      
-    </div>
-            
-  </section>
   
     </header>
     <body>
@@ -134,8 +95,12 @@
       </div>
         <!-- The Modal -->
   <div class="modal" id="myModal">
-
     <div class="modal-dialog">
+        <a>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </a>
       <div class="modal-content">
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
@@ -228,6 +193,11 @@
   <div class="modal" id="myModalItaly">
 
     <div class="modal-dialog">
+        <a>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </a>
       <div class="modal-content">
         <div id="carouselExampleControls1" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
@@ -321,6 +291,11 @@
   <div class="modal" id="myModalIndia">
 
     <div class="modal-dialog">
+        <a>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </a>
       <div class="modal-content">
         <div id="carouselExampleControls2" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
@@ -414,6 +389,11 @@
   <div class="modal" id="myModalJapan">
 
     <div class="modal-dialog">
+        <a>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </a>
       <div class="modal-content">
         <div id="carouselExampleControls3" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
@@ -506,6 +486,11 @@
   <div class="modal" id="myModalUsa">
 
     <div class="modal-dialog">
+        <a>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </a>
       <div class="modal-content">
        <div id="carouselExampleControls4" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
@@ -541,43 +526,47 @@
 
 <hr>
 
-   <footer id="foot">
-            <ul class = acac>
-              <li>
-                <a class="leftfooter" href="#">About</a>
-              </li>
-              <li>
-                <a class="leftfooter" href="#">Contact</a>
-              </li>
-              <li>
-                <a class="leftfooter" href="#">Adress</a>
-              </li>
-              <li>
-                <a class="leftfooter" href="#">Copyright</a>
-              </li>
-            </ul>
-      
-            <ul class = social>
-              <li>
-                <a href="#"><img class = inst src="https://cdn.pixabay.com/photo/2016/08/09/17/52/instagram-1581266_960_720.jpg" alt = "instagram"></a>
-              </li>
-              <li>
-                <a href="#"><img class = fb src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Facebook_logo_%28square%29.png" alt= "facebook"></a>
-              </li>
-              <li>
-                <a href="#"><img class = twit src="https://upload.wikimedia.org/wikipedia/fr/c/c8/Twitter_Bird.svg" alt="twitter"></a>
-              </li>
-              <li>
-                <a href="#"><img class = yout src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Logoyoutube2011favicon.svg" alt="youtube"></a>
-              </li>
-            </ul>
-      
-      
-          </footer>
+<footer id="foot">
+  <ul class = acac>
+    <li>
+    <a class="leftfooter" href="Biography.html">About</a>
+    </li>
+    <li>
+    <a class="leftfooter" href="contactPage.html">Contact</a>
+    </li>
+    <li>
+    <a class="leftfooter" href="#">Adress</a>
+    </li>
+    <li>
+    <a class="leftfooter" href="#">Copyright</a>
+    </li>
+    <li>
+    <a class="leftfooter" href="#" id='open_button_footer' onclick="open_conteneur();">Cookies</a>
+    </li>
+  </ul>
+
+  <ul class = social>
+    <li>
+    <a href="#"><img class = inst src="https://cdn.pixabay.com/photo/2016/08/09/17/52/instagram-1581266_960_720.jpg" alt = "instagram"></a>
+    </li>
+    <li>
+    <a href="#"><img class = fb src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Facebook_logo_%28square%29.png" alt= "facebook"></a>
+    </li>
+    <li>
+    <a href="#"><img class = twit src="https://upload.wikimedia.org/wikipedia/fr/c/c8/Twitter_Bird.svg" alt="twitter"></a>
+    </li>
+    <li>
+    <a href="#"><img class = yout src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Logoyoutube2011favicon.svg" alt="youtube"></a>
+    </li>
+  </ul>
+
+  </footer>
 
 
 
-
+          <script src="navfooter2.js"></script>
+          <script src="NavFooter2.js"></script>
+          <script src ="script_cookies_accueil.js"></script>
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
