@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body
 {
    margin: 0;
@@ -123,3 +124,22 @@ html
    margin-top: 15%;
   
 }
+=======
+h1
+{
+   text-align: center;
+   font-size: 9vw;
+
+    
+}
+div
+{
+   
+}
+div h2
+{
+  text-align: right;
+  margin-right: 37px;
+
+}
+>>>>>>> d0c4d1a717bcfc1647c47775407b7a43195918c3
