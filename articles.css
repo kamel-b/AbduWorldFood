@@ -1,0 +1,248 @@
+<<<<<<< HEAD
+body
+{
+   margin: 0;
+   padding: 0;
+   
+}
+
+.articles h1
+{  
+   font-size: 6vw;
+   margin-top: 30px;
+   margin-bottom: 5%;
+   padding-top: 90px;
+   color: rgb(67, 67, 67); 
+   text-align: center;
+   text-transform: uppercase;
+}
+p
+{
+   text-align:justify ;
+   font-size: 22px;
+}
+
+.imgbox 
+{
+   height: 40%;
+   width: 40%;
+   position:sticky;
+   top: 10%;
+   right: 2%;
+} 
+ 
+.imgbox2 
+{
+   height: 40%;
+   width: 40%;
+   position:sticky;
+   top: 10%;
+   left: 64%;
+   
+} 
+
+.articlebox
+{
+   margin-top: -22.5%;
+   margin-left: 34%;
+   margin-right: 5%;
+   width: 60%;
+}
+
+.articlebox p
+{
+   margin-left: 3%;
+}
+
+.articlebox2 p
+{
+   margin-right: 3%;
+}
+
+.articlebox2
+{
+   margin-top: -22.5%;
+   margin-left: 0%;
+   margin-right: 34%;
+   width: 60%;
+}
+
+.h2right
+{
+   margin-left: 82%;
+   font-size: 4vw;
+   text-transform: uppercase;
+}
+
+.h2left
+{
+   font-size: 4vw;
+   text-transform: uppercase;
+}
+
+.imgleft
+{
+   width: 84%;
+   height: 70%;
+   
+   
+}
+section
+{
+   width: 95%;
+   margin-left: 5%;
+   margin-top: 5%;
+   margin-bottom: 7%;
+
+ 
+}
+.imgright
+{
+   width: 84%;
+   height: 70%;
+  
+   
+}
+
+html
+{
+   scroll-behavior: smooth;
+   font-family: 'Josefin Sans', sans-serif;
+   
+}
+
+.hero-section
+{
+   width: 100%;
+   margin-left: 0;
+   margin-top: 0%;
+   margin-bottom: 10%;
+}
+
+
+
+hr {
+   background-color: black;
+   padding-bottom: 1px;
+   margin-left: 10%;
+   margin-top: 10px;
+   width: 80%;
+   border: 0;
+   height: 1px;
+   background: #333;
+   background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+   background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
+   background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
+   background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
+}
+
+.toggle_btn
+{
+   height: 4%;
+   width: 3%;
+   position: fixed;
+   margin-left: 95% ;
+   margin-top: 5px;
+   cursor: pointer;
+   z-index: 5;
+}
+
+#span1 {
+   height: 4px;
+   width : 100%;
+   background-color: black;
+   position: absolute;
+   top: 30px;
+   left: 0;
+}
+
+#span2 {
+   height: 4px;
+   width : 100%;
+   background-color: black;
+   position: absolute;
+   left: 0;
+}
+
+#span3 {
+   height: 4px;
+   width : 100%;
+   background-color: black;
+   position: absolute;
+   top: 15px;
+   left: 0;
+}
+
+
+
+
+.menu
+{
+  height: 400px;
+  width: 250px;
+  background-color: black;
+  position: fixed;
+  z-index: 4;
+  display: block;
+
+
+}
+
+.menu a 
+{
+  color: #ffffff;
+  font-family:'Josefin Sans', sans-serif;
+  text-align: center;
+  display: block;
+  margin-top:40px ;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+
+}
+.menu a:hover
+{
+   color: black;
+   background-color: #ffffff;
+}
+.nav
+{
+   margin-left: -250px;
+   transition-duration: 0.2s;
+  
+}
+
+.nav_open 
+{
+   margin-left: 0;
+   transition-duration: 0.2s;
+}
+
+.nav_close
+{
+   margin-left: -250px;
+   transition-duration: 0.2s;
+}
+.close
+{
+   font-size: 60px;
+}
+=======
+h1
+{
+   text-align: center;
+   font-size: 9vw;
+
+    
+}
+div
+{
+   
+}
+div h2
+{
+  text-align: right;
+  margin-right: 37px;
+
+}
+>>>>>>> master
