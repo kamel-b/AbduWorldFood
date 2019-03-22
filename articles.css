@@ -133,3 +133,95 @@ hr {
    background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
    background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
 }
+
+.toggle_btn
+{
+   height: 4%;
+   width: 3%;
+   position: fixed;
+   margin-left: 95% ;
+   margin-top: 5px;
+   cursor: pointer;
+   z-index: 5;
+}
+
+#span1 {
+   height: 4px;
+   width : 100%;
+   background-color: black;
+   position: absolute;
+   top: 30px;
+   left: 0;
+}
+
+#span2 {
+   height: 4px;
+   width : 100%;
+   background-color: black;
+   position: absolute;
+   left: 0;
+}
+
+#span3 {
+   height: 4px;
+   width : 100%;
+   background-color: black;
+   position: absolute;
+   top: 15px;
+   left: 0;
+}
+
+
+
+
+.menu
+{
+  height: 400px;
+  width: 250px;
+  background-color: black;
+  position: fixed;
+  z-index: 4;
+  display: block;
+
+
+}
+
+.menu a 
+{
+  color: #ffffff;
+  font-family:'Josefin Sans', sans-serif;
+  text-align: center;
+  display: block;
+  margin-top:40px ;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+
+}
+.menu a:hover
+{
+   color: black;
+   background-color: #ffffff;
+}
+.nav
+{
+   margin-left: -250px;
+   transition-duration: 0.2s;
+  
+}
+
+.nav_open 
+{
+   margin-left: 0;
+   transition-duration: 0.2s;
+}
+
+.nav_close
+{
+   margin-left: -250px;
+   transition-duration: 0.2s;
+}
+.close
+{
+   font-size: 60px;
+}
