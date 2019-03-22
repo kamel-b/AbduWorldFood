@@ -123,6 +123,7 @@ html
 hr {
    background-color: black;
    padding-bottom: 1px;
+   margin-left: 10%;
    margin-top: 10px;
    width: 80%;
    border: 0;
