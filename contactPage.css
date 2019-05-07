@@ -132,6 +132,7 @@ input[type=text], textarea{
     font-size: 10px;
   }
 
+  
 @media screen and (max-width: 768px) {
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     font-size: 8px;
@@ -164,6 +165,23 @@ input[type=text], textarea{
 
   .message{
     display: none;
+  }
+
+  #foot {
+    background-color: #000 !important;
+    height: 70px;
+    opacity: 0.95;
+    width: 100%;
+
+  }
+
+  .social {
+
+    display: flex;
+    justify-content: space-around;
+    left: auto;
+    width: auto;
+
   }
 }
  

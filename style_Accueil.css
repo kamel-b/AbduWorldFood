@@ -191,5 +191,24 @@ p{
     color: #fff;
 }
 
+@media screen and (max-width: 768px) {
 
+#foot{
+    background-color: #000 !important;
+    height: 70px;
+    opacity: 0.95;
+    width: 100%;
+    z-index: 1;
+    margin-top: 30%;
 
+    }
+.social {
+
+    display: flex;
+    justify-content: space-around;
+    left: auto;
+    width: auto;
+
+}
+
+}
