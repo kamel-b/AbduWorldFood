@@ -86,14 +86,8 @@
     transform: scale(.9);
     border-radius: 100%;
   }
-  100% {
-    Gallery
-    Biography
-    Contact
 
 
-    transform: scale(1.2);
-  }
 }
 
 .logo {
@@ -324,6 +318,8 @@
   border-radius: 30%;
   height: 30px;
 }
+
+bottom
 
 .inst:hover,
 .fb:hover,

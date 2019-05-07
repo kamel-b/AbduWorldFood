@@ -376,7 +376,7 @@
 
 #foot{
   background-color: #000 !important;
-  height: 60px;
+  height: 70px;
   opacity: 0.95;
   width: 100%;
 	z-index: 1;
@@ -457,7 +457,7 @@
   }
   .social{
 		display: flex;
-		justify-content: space-between;
+		justify-content: space-around;
 		left: auto;
 		width: auto;
 	}
